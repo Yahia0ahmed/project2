@@ -66,4 +66,3 @@ class Bot(BaseBot):
                 await self.highrise.chat("Invalid teleport command format.")
                 return
             await self.highrise.teleport(user_id, Position(x, y, z))
-            
